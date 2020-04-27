@@ -46,7 +46,7 @@ ReactDOM.render(
 ## Initialisation with middleware and persitor
 ~~~~
 import {createLogger} from 'redux-logger'
-import {setStore, reducer} from 'path-to-redux';
+import {setStore, reducer} from 'redux-path';
 import {createStore, applyMiddleware} from 'redux';
 import {persistStore, persistReducer} from 'redux-persist'
 
