@@ -28,7 +28,7 @@ const Foo = () => {
     <div onClick={() => dispatchTo('foo/sub', sub + 1)}>
       Click to increment
     </div>
-    <div onClick={() => dispatchTo('foo', {sub: getStoreFrom('foo/sub') + 1})}>
+    <div onClick={() => dispatchTo('foo', {sub: getFrom('foo/sub') + 1})}>
       Click to increment
     </div>
     foo.sub: <>{sub}</>
