@@ -1,5 +1,7 @@
 Simplify redux usage. Use a path to get and dispatch values.
 
+Warning : this comes with important drawbacks. Components will be coupled with the shape of the store. You won't be able to add extra reducers.
+
 ## Installation
 
 ### `yarn add redux-path`
